@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 if(process.env.NOD_ENV != "production") {
 require('dotenv').config();
 }
@@ -106,7 +105,6 @@ app.use((err, req, res, next) => {
 
 app.listen(8080, () => {
     console.log("server is listening to port 8080");
-=======
 if(process.env.NOD_ENV != "production") {
 require('dotenv').config();
 }
@@ -214,5 +212,5 @@ app.use((err, req, res, next) => {
 
 app.listen(8080, () => {
     console.log("server is listening to port 8080");
->>>>>>> 59f73547b03df34273dfaa7c6d4455c0c0482eb2
 });
+})
