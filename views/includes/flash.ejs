@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <% if(success && success.length) { %>
 <div class="alert alert-success 
             alert-dismissible fade show 
@@ -20,4 +21,28 @@
                 data-bs-dismiss="alert" 
                 aria-label="Close"></button>
     </div>
+=======
+<% if(success && success.length) { %>
+<div class="alert alert-success 
+            alert-dismissible fade show 
+            col-6 offset-3" role="alert">
+    <%= success %>
+    <button type="button" 
+            class="btn-close" 
+            data-bs-dismiss="alert" 
+            aria-label="Close"></button>
+</div>
+<% } %>
+
+<% if(error && error.length) { %>
+    <div class="alert alert-danger 
+                alert-dismissible fade show 
+                col-6 offset-3" role="alert">
+        <%= error %>
+        <button type="button" 
+                class="btn-close" 
+                data-bs-dismiss="alert" 
+                aria-label="Close"></button>
+    </div>
+>>>>>>> 59f73547b03df34273dfaa7c6d4455c0c0482eb2
     <% } %>
